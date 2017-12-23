@@ -1,0 +1,158 @@
+/* -------- Fonts - 	All pages --------- */
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+/*Body*/
+body{
+	margin:0px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+/*-----------------Nav---------------*/
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -90px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 14px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+#home {
+    top: 20px;
+    background-color: #550C18;
+}
+#projects {
+    top: 80px;
+    background-color: #550C18;
+}
+#resume {
+    top: 140px;
+    background-color: #550C18;
+}
+
+/*-----------------HOME PAGE-------------------*/
+/*Center*/
+.center {
+	padding: 10px;
+	height: 100%;
+	background-color: #D8D8D8;
+}
+/*About me*/
+.aboutme{
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Footer */
+.footer{
+	padding: 10px;
+	height: 100%;
+	text-align: center;
+	background-color: #550C18;
+	color: #ffffff;
+}
+
+
+
+/*-----------------PROJECTS-------------------*/
+a{
+	text-decoration: none;
+	color: white;
+}
+.projheadcont{
+	background-color: #848484;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 60px;
+}
+
+.projectcontainer{
+	margin:0px;
+	height: 100%;
+	width: 100%;
+}
+.website{
+	background-color: #D8D8D8;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+}
+.email{
+	background-color: #550C18;
+	color: white;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+}
+.sms{
+	background-color: #D8D8D8;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+}
+.channel{
+	background-color: #848484;
+	color: white;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+}
+
+/*-----------------RESUME-------------------*/
+.resumecontainer{
+	background-color: #848484;
+	margin:0px;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
