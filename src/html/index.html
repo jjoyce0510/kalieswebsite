@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset=”UTF-8”>
   <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
-  <title>Kalie Soller | Resume and Projects</title>
+  <title>Kalie Soller | Resume and Portfilio</title>
   <link rel="stylesheet" type="text/css" href="../css/main.css">
   <script type="text/javascript" src="../js/index.js" ></script>
 </head>
-<body>
-  <header>
+  <!-- HEADER NAVIGATION -->
+  <header class="menu_container col-6">
     <div id="mySidenav" class="sidenav">
-      <a href="#" id="home">HOME</a>
-      <a href="#" id="projects">PROJECTS</a>
-      <a href="#" id="resume">RESUME</a>
-    </div>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="" class="home">HOME</a>
+      <a href="http://localhost:5000/html/aboutme.html" class="aboutme">ABOUT ME</a>
+      <a href="http://localhost:5000/html/projects.html" class="projects">PORTFOLIO</a>
+      <a href="http://localhost:5000/html/resume.html" class="resume">RESUME</a>
+   </div>
+     <h2 class="menu_title">
+     <a href="http://localhost:5000/html/index.html">KALIE SOLLER</a></h2>
+      <span class="nav-button" onclick="openNav()"></span>
   </header>
-  <div class= "center">
-    <div class="aboutme">
-    <h1>KALIE SOLLER</h1>
-      <p>Digital Marketing</p>
-      <p>eCommerce Content Coordinator</p>
-    </div>
-  </div>
-<footer>
-  <div class="footer">
-    <h2>Contact Information</h2>
-    <p>Email: Kalie.Soller@outlook.com</p>
-  </div>
-</footer>
-</div>
-</body>
+<!--- CONTENT HOMEPAGE--->
+<body>
+  <section class="main-content">
+      <div class="title col-6">
+      <h1>KALIE SOLLER</h1>
+        <p>Digital Marketing Professional</p>
+          <a class="cta" href="http://localhost:5000/html/resume.html">Resume</a>
+          <a class="cta" href="http://localhost:5000/html/projects.html">Portfolio</a>
+      </div>
+  </section>
+    <footer class="col-6">
+        <a href="https://www.linkedin.com/in/kalie-soller-2a3622bb/"><img src="../images/linkedin_logo.png" width="30px" height="30px"></a>
+        <a href="https://www.facebook.com/kalie.n.soller"><img src="../images/instagram-icon.png" width="30px" height="30px"></a>
+        <p>email: kalie.soller@outlook.com</p>
+        <p class="create">Site Created by Kalie Soller</p>
+    </footer>
 </html>
