@@ -3,7 +3,7 @@
 
  /* serves main page */
  app.get("/", function(req, res) {
-    res.sendfile('src/html/index.html')
+    res.sendfile('src/index.html')
  });
 
  /* serves all the static files */

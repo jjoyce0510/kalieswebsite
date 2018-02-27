@@ -12,6 +12,11 @@
 			 clear:both;
 	 }
 
+	 .row {
+	 	display: flex; 
+	 	align-items: center; 
+	 }
+
 	 [class*='col-'] {
 			 float: left;
 			 min-height: 1px;
@@ -35,6 +40,7 @@
 		padding: 0;
 		text-align: center;
 		color: white;
+		vertical-align: middle;
 	 }
 
 	 @media all and (max-width:800px){
