@@ -253,6 +253,14 @@ header h2{
 	color: white;
 	margin: 17px;
 	border-radius: 10px;
+	opacity: 0.0;
+  -moz-animation: showCTA 1s ease-in; /* Firefox */
+  -webkit-animation: showCTA 1s ease-in; /* Safari and Chrome */
+  -ms-animation: showCTA 1s ease-in; /* IE10 */
+  -o-animation: showCTA 1s ease-in; /* Opera */
+  animation: showCTA 1s ease-in;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
 }
 .cta:hover {
 	background-color: #9A8288;
@@ -304,6 +312,10 @@ nav a:hover{
 }
 .projheadcont p{
 	text-align: left;
+}
+.hideme
+{
+    opacity:0;
 }
 #website{
 	padding-top: 25px;
@@ -524,3 +536,26 @@ footer{
  .create{
 	 font-size: 10px;
  }
+
+
+ /* ANIMATIONS */
+ @-webkit-keyframes showCTA { /* Chrome, Safari */
+    from {opacity:0.0;}
+    to {opacity: 1.0}
+}
+@-moz-keyframes showCTA { /* FF */
+    from {opacity:0.0;}
+    to {opacity: 1.0}
+}
+@-ms-keyframes showCTA { /* IE10 */
+    from {opacity:0.0;}
+    to {opacity: 1.0}
+}
+@-o-keyframes showCTA { /* Opera */
+    from {opacity:0.0;}
+    to {opacity: 1.0}
+}
+@keyframes showCTA {
+    from {opacity:0.0;}
+    to {opacity: 1.0}
+}
