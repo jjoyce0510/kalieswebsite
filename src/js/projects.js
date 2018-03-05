@@ -36,14 +36,13 @@ function showSlides() {
         slides[i].style.display = "none";
     }
     slideIndex++;
-    var currSlide = slides[slideIndex%slides.length]; 
+    var currSlide = slides[slideIndex%slides.length];
     if (currSlide) {
       currSlide.style.display = "block";
     }
     setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
-
-
+  // FADE IN OF IMAGES
 $(function(){  // $(document).ready shorthand
   $('.monster').fadeIn('slow');
 });
@@ -62,7 +61,7 @@ $(document).ready(function() {
             /* If the object is completely visible in the window, fade it it */
             if( bottom_of_window > bottom_of_object ){
 
-                $(this).animate({'opacity':'1'},1500);
+                $(this).animate({'opacity':'1'},1000);
 
             }
 

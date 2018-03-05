@@ -13,8 +13,8 @@
 	 }
 
 	 .row {
-	 	display: flex; 
-	 	align-items: center; 
+	 	display: flex;
+	 	align-items: center;
 	 }
 
 	 [class*='col-'] {
@@ -247,6 +247,10 @@ header h2{
  line-height: 30px;
  text-shadow: 2px 2px #5E4A4E;
 }
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
 .cta{
 	padding: 10px 25px 10px 25px;
 	background-color: #5E4A4E;
@@ -336,8 +340,6 @@ nav a:hover{
 }
 .desktop_info{
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #84676E;
 	color: white;
 }
@@ -348,8 +350,6 @@ nav a:hover{
 }
 .secondary_info{
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #9A8288;
 	color: white;
 }
@@ -360,8 +360,6 @@ nav a:hover{
 }
 .bottom_info{
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #84676E;
 	color: white;
 }
@@ -372,12 +370,20 @@ nav a:hover{
 }
 .mobile_info{
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #9A8288;
 	color: white;
 }
 .mobile_info p{
+	text-align: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.mobile_infob{
+	text-align: center;
+	background-color: #84676E;
+	color: white;
+}
+.mobile_infob p{
 	text-align: left;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -396,9 +402,9 @@ nav a:hover{
 	margin-right: 50px;
 }
 .email_info{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 30px;
 	background-color: #84676E;
 	color: white;
 }
@@ -408,7 +414,7 @@ nav a:hover{
 	margin-right: 50px;
 }
 .email_img img{
-  box-shadow: 5px 5px 3px #C0C0C0;
+  box-shadow: 5px 5px 3px #282828;
 }
 #sms{
 	padding-top: 25px;
@@ -426,8 +432,6 @@ nav a:hover{
 }
 .sms_info{
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #9A8288;
 	color: white;
 }
@@ -438,7 +442,7 @@ nav a:hover{
 }
 #channel{
 	padding-bottom: 30px;
-	padding-top: 25px;
+	padding-top: 20px;
 	display: inline-block;
 	background-color: white;
 	color: #524445;
@@ -450,9 +454,8 @@ nav a:hover{
 	margin-right: 50px;
 }
 .channel_info{
+	padding-bottom: 20px;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 	background-color: #84676E;
 	color: white;
 }
@@ -505,11 +508,11 @@ nav a:hover{
 }
 /*-----------------RESUME-------------------*/
 .nav-resume{
-	background-color: #D6CCCF;
+	background-color: #9A8288;
 	padding: 40px;
 }
 .resumecontainer{
-	background-color: #D6CCCF;
+	background-color: #9A8288;
 	padding-top: 80px;
 	padding-bottom: 40px;
 	text-align: center;
